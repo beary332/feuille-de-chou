@@ -1,7 +1,5 @@
 /* fonts */
 
-@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap")
-
 @font-face {
     font-display: swap;
     font-family: 'Latin Modern Mono';
@@ -89,7 +87,7 @@ time {
     background-color: #FAFAFA;
     display: flex;
     flex-direction: column;
-    font-family: 'Latin Modern Roman', 'ten-mincho', serif;
+    font-family: Latin Modern Roman, ten-mincho, serif;
     min-height: 100vh;
     padding: 1rem;
     word-break: break-word;
