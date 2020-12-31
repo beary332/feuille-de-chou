@@ -39,5 +39,7 @@ name = "author"
   custom_css = []
   description = "an example site for hugo theme TeXify"
   enable_mathjax = true
-  footnote = "Copyright © 2020 楼閣 All rights reserved."
   keywords = ["hugo", "latex", "theme"]
+  
+[minify]
+ disableJSON = true
