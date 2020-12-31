@@ -17,17 +17,17 @@ pygmentsUseClasses = true
     [[menu.main]]
         identifier = "jjmo"
         name = "JJMO"
-        url = "/JJMO"
+        url = "/JJMO/toc"
         weight = 1
     [[menu.main]]
         identifier = "jmo"
         name = "JMO"
-        url = "/post"
+        url = "/JMO/toc"
         weight = 2
     [[menu.main]]
         identifier = "imo"
         name = "IMO"
-        url = "/about"
+        url = "/IMO/toc"
         weight = 3
 
 [params]
