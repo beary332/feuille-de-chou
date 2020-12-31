@@ -6,8 +6,6 @@ paginate = 4
 theme = "hugo-theme-texify"
 title = "白象の宴"
 
-disqusShortname = ""
-googleAnalytics = ""
 pygmentsUseClasses = true
 
 [author]
@@ -40,6 +38,3 @@ name = "author"
   description = "an example site for hugo theme TeXify"
   enable_mathjax = true
   keywords = ["hugo", "latex", "theme"]
-  
-[minify]
- disableJSON = true

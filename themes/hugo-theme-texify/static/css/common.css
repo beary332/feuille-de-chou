@@ -1,5 +1,7 @@
 /* fonts */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap');
+
 @font-face {
     font-display: swap;
     font-family: 'Latin Modern Mono';
@@ -87,7 +89,7 @@ time {
     background-color: #FAFAFA;
     display: flex;
     flex-direction: column;
-    font-family: 'Latin Modern Roman', 'Times New Roman', serif;
+    font-family: 'Latin Modern Roman', 'Times New Roman', 'Noto Serif SC', serif;
     min-height: 100vh;
     padding: 1rem;
     word-break: break-word;
