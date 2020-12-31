@@ -2,42 +2,36 @@ baseURL = "https://feuille-de-chou.netlify.app/"
 defaultContentLanguage = "ja"
 hasCJKLanguage = true
 languageCode = "ja"
-paginate = 4
 theme = "hugo-theme-texify"
 title = "白象の宴"
 
 pygmentsUseClasses = true
-
-[author]
-name = "author"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-[[menu.main]]
-  identifier = "jjmo"
-  name = "JJMO"
-  url = "/jjmo/"
-  weight = 1
-[[menu.main]]
-  identifier = "jmo"
-  name = "JMO"
-  url = "/jmo/"
-  weight = 2
-[[menu.main]]
-  identifier = "imo"
-  name = "IMO"
-  url = "/imo/"
-  weight = 3
+      
+[menu]
+    [[menu.main]]
+        identifier = "jjmo"
+        name = "JJMO"
+        url = "/JJMO"
+        weight = 1
+    [[menu.main]]
+        identifier = "jmo"
+        name = "JMO"
+        url = "/post"
+        weight = 2
+    [[menu.main]]
+        identifier = "imo"
+        name = "IMO"
+        url = "/about"
+        weight = 3
 
 [params]
-  custom_css = []
-  description = "an example site for hugo theme TeXify"
   enable_mathjax = true
-  keywords = ["hugo", "latex", "theme"]
   
 [minify]
  disableJSON = true
