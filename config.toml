@@ -1,0 +1,43 @@
+baseURL = "https://feuille-de-chou.netlify.app/"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+languageCode = "ja"
+paginate = 4
+theme = "hugo-theme-texify"
+title = "白象の宴"
+
+disqusShortname = ""
+googleAnalytics = ""
+pygmentsUseClasses = true
+
+[author]
+name = "author"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+  identifier = "jjmo"
+  name = "JJMO"
+  url = "/jjmo/"
+  weight = 1
+[[menu.main]]
+  identifier = "jmo"
+  name = "JMO"
+  url = "/jmo/"
+  weight = 2
+[[menu.main]]
+  identifier = "imo"
+  name = "IMO"
+  url = "/imo/"
+  weight = 3
+
+[params]
+  custom_css = []
+  description = "an example site for hugo theme TeXify"
+  enable_mathjax = true
+  footnote = "Copyright © 2020 楼閣 All rights reserved."
+  keywords = ["hugo", "latex", "theme"]
