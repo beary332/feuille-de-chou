@@ -38,3 +38,6 @@ name = "author"
   description = "an example site for hugo theme TeXify"
   enable_mathjax = true
   keywords = ["hugo", "latex", "theme"]
+  
+[minify]
+ disableJSON = true
