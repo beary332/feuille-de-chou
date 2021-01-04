@@ -16,18 +16,18 @@ pygmentsUseClasses = true
 [menu]
     [[menu.main]]
         identifier = "jjmo"
-        name = "JJMO"
-        url = "/JJMO/toc"
+        name = "数学"
+        url = "/math/toc"
         weight = 1
     [[menu.main]]
         identifier = "jmo"
-        name = "JMO"
-        url = "/JMO/toc"
+        name = "物理"
+        url = "/physics/toc"
         weight = 2
     [[menu.main]]
         identifier = "imo"
-        name = "IMO"
-        url = "/IMO/toc"
+        name = "生物"
+        url = "/biology/toc"
         weight = 3
 
 [params]
