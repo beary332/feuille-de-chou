@@ -20,9 +20,9 @@ pygmentsUseClasses = true
         url = "/math/toc"
         weight = 1
     [[menu.main]]
-        identifier = "physics"
-        name = "物理"
-        url = "/physics/toc"
+        identifier = "philosophy"
+        name = "哲学"
+        url = "/philosophy/toc"
         weight = 2
     [[menu.main]]
         identifier = "cs"
